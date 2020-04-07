@@ -2,16 +2,16 @@
 
 My name is Jessica Pereyra. I live in New Hampsire. My major is Computer Science and I am a student at Southern New Hampshire University. I have a 10 years old son name Jayden and two dogs. In my free time, I like to spend time with family and friends. 
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## Code Review 
+
+## Software Engineering/ Design
+
+enhancement.py
+
+## Data Structure and Algorithms
 
 - Bulleted
 - List
