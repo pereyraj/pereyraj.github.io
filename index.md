@@ -7,6 +7,9 @@ This site was created to showcase some of my work in coding.
 
 ## Code Review 
 
+
+
+
 ## Software Engineering/ Design
 
   The artifact that I chose is a previous existing code that I did in my previous course. I used Java to implement the fundamental operations of create, read, update, and delete (CRUD) using MongoDB driver to access my document collection. For this existing code, I had to create a document in MongoDB database called “city” into the collection “inspections.” Then I developed a function to be able to read that document and also to be able to update the document when needed. I also developed a function to delete any document that I no longer needed. 
@@ -18,6 +21,10 @@ This site was created to showcase some of my work in coding.
  **Below is the link to the code:**
 
 [https://github.com/pereyraj/pereyraj.github.io/blob/master/enhancement.py](url)
+
+
+
+
 
 
 ## Data Structure and Algorithms
@@ -33,14 +40,4 @@ This site was created to showcase some of my work in coding.
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pereyraj/pereyraj.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
