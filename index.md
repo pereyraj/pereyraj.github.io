@@ -28,6 +28,7 @@ This site was created to showcase some of my work in coding.
   
 **Below is the link to the code:**
 
+[https://github.com/pereyraj/pereyraj.github.io/blob/master/TicTacToe.py](url)
 
 **Bold** and _Italic_ and `Code` text
 
