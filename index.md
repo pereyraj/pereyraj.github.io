@@ -22,8 +22,8 @@ This site was created to showcase some of my work in coding.
 
 **Code:**
 
-
-`import json
+`
+import json
 from bson import json_util
 from pymongo import MongoClient
 
@@ -53,7 +53,7 @@ for item in mydb.find():
           value = input('Enter new name:')
           old_value = old_name ' `
           
-         ` else:
+          else:
             value = input('new description')
             old_value = old_description
             update_record(mydb, choice, value, old_value)
@@ -80,6 +80,12 @@ for item in mydb.find():
                         print('data successfully deleted...')
                         
                         main()  `
+
+
+
+
+
+
 
 ## Data Structure and Algorithms
 
