@@ -17,7 +17,7 @@ My name is Jessica Pereyra. I live in New Hampsire. My major is Computer Science
  
  **Below is the link to the code:**
 
-[https://github.com/pereyraj/pereyraj.github.io/blob/master/enhancement.py]
+[https://github.com/pereyraj/pereyraj.github.io/blob/master/enhancement.py](url)
 
 
 ## Data Structure and Algorithms
