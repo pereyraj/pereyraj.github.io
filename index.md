@@ -77,7 +77,7 @@ for item in mydb.find():
                         mydb.delete_one(query_del)
                         print('data successfully deleted...')
                         
-                        main() 
+                        main() `
 
 ## Data Structure and Algorithms
 
