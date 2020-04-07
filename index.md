@@ -2,7 +2,7 @@
 
 My name is Jessica Pereyra. I live in New Hampsire. My major is Computer Science and I am a student at Southern New Hampshire University. I have a 10 years old son name Jayden and two dogs. In my free time, I like to spend time with family and friends. 
 
-
+This site was created to showcase some of my work in coding. 
 
 
 ## Code Review 
