@@ -1,8 +1,6 @@
-## Welcome to Jessica Pereyra's eProfolio
+## Welcome to Jessica's ePortfolio
 
-You can use the [editor on GitHub](https://github.com/pereyraj/pereyraj.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+My name is Jessica Pereyra. I live in New Hampsire. My major is Computer Science and I am a student at Southern New Hampshire University. I have a 10 years old son name Jayden and two dogs. In my free time, I like to spend time with family and friends. 
 
 ### Markdown
 
