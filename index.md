@@ -19,7 +19,9 @@ This site was created to showcase some of my work in coding.
 
 [https://github.com/pereyraj/pereyraj.github.io/blob/master/enhancement.py](url)
 
+
 **Code:**
+
 
 `import json
 from bson import json_util
@@ -49,9 +51,9 @@ for item in mydb.find():
         choice = input('Invalid choice. Please enter correct one')
         if int(choice) is 1:
           value = input('Enter new name:')
-          old_value = old_name ' 
+          old_value = old_name ' `
           
-          else:
+         ` else:
             value = input('new description')
             old_value = old_description
             update_record(mydb, choice, value, old_value)
@@ -77,7 +79,7 @@ for item in mydb.find():
                         mydb.delete_one(query_del)
                         print('data successfully deleted...')
                         
-                        main() `
+                        main()  `
 
 ## Data Structure and Algorithms
 
