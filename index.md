@@ -7,6 +7,8 @@ This site was created to showcase some of my work in coding.
 
 ## Code Review 
 
+**Below is the link to my code review video:**
+
 
 
 
@@ -18,11 +20,9 @@ This site was created to showcase some of my work in coding.
   
  The challenges that I had when transferring the existing code to python is trying to make the program run smoothly. I had to do a lot of debugging and look at any syntax errors that I might have created when writing the code. I learned to do the code piece by piece and testing it instead of doing it all at once. This could of help me find any errors I made instead of going through each line to find out what I did wrong. 
  
- **Below is the link to the code:**
 
-[https://github.com/pereyraj/pereyraj.github.io/blob/master/enhancement.py](url)
 
-**Code:**
+**Below is the code that I created:**
 
 ```
 import json
@@ -88,17 +88,18 @@ for item in mydb.find():
 
 
 
+
+
+
 ## Data Structure and Algorithms
 
   The artifact that I chose for data structures and algorithm is tic tac toe. I created this half of this game for fun two months ago and finished it this week. I created this game using the programming language python. In this game, the player versus the computer using a board that was created with strings. The player has a choice to choose if they want to be X or if they want to be O. The board is printed on the terminal and randomly choose which player goes first. Once the player is picked to go first, choose a number 1 through 9 to place their letter. The computer then randomly chose a spot that is free. A message will be displayed if the computer wins or in the user wins. 
 	
   I picked this because it shows the data structures and algorithms that is used in this game. In the game tuple was used for X and O by using indexes. The string is also used throughout the code to help create the board and to display messages to the user. The letters that are used in the game also used String. Algorithms are used to get user input and the output. The input help get the letter the user use to play the game and also the number that they picked when placing the letter on the spot that is picked. This artifact was half done when I first created it. I finished working on it and tested it to make sure it was working correctly. I did some adjusting on some area that wasn’t working. I think objectives that I planned to meet with the enhancement did get met. I was able to use linear search in the game to move the letter on the board by using the number that the user picked. The binary search that I think was the letters that were in the index. I don’t think I have any updates to my outcome coverage plans at this moment. I learned that more about algorithms when creating this game. The challenges that I had was to know where to use the search algorithms. Also, make sure my loop was working correctly or written correctly was a bit of a challenge.
   
-**Below is the link to the code:**
 
-[https://github.com/pereyraj/pereyraj.github.io/blob/master/TicTacToe.py](url)
 
-**Code:**
+**Below is the code for Tic Tac Toe:**
 
 ```
 # Tic Tac Toe
@@ -288,6 +289,10 @@ while True:
     if not playAgain():
         break
 ```
+
+
+
+
 
 
 ## Database
