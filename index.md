@@ -305,6 +305,7 @@ I selected this because this artifact collects data, and generally stores it. It
 
 **Below is the code for my CRUD database:**
 
+
 ```
 #!/usr/bin/python
 from pymongo import *
@@ -359,6 +360,4 @@ if __name__ == '__main__':
     mongo.read()
     
     mongo.delete()
-    
-    
 ```
