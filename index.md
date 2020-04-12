@@ -297,3 +297,67 @@ while True:
 
 ## Database
 
+For this artifact, I chose to make a python program. I created a simple program where the user can create, read, update, and delete items. The user can start by create a new register. The user then will be able to read the insert they made. The user can also be able to update the item that is on the list. The program will then display the user the update before and the update after it been made. The update can be removing item from the list or adding new one. The user can also be able to delete everything on the list.
+
+I selected this because this artifact collects data, and generally stores it. It let the user have control on the item they chose to add in their list. Being able to use the CRUD method to help me made this program showcase my skills and abilities. I was able to do a simple program that can store data into the database and get used when needed. I think objectives that I planned to meet with the enhancement did get met. I was able to store the data that the user typed in and let the user have control on the data usage. I don’t think I have any updates to my outcome coverage plans at this moment. The challenges were making sure that my program was working correctly and making sure I did it accurately. 
+
+
+
+**Below is the code for my CRUD database:**
+
+```
+#!/usr/bin/python
+from pymongo import *
+
+class MongoDB_Supplies:
+    def __init__(self):
+      
+        # Initialize the connection 
+ self.connection = MongoClient('localhost', 27017)
+        self.db = self.connection.Items       
+        self.cursor = self.db.Storage 
+        
+    def create(self, query={}):
+        # Insert a new register.
+        self.cursor.insert(query)
+        
+    def read(self, query={}):
+        # Read all the register.
+        for value in self.cursor.find(query):
+            print(value)
+        
+    def update(self, query_1={}, query_2={}):
+        
+        # Be able to change the first item on the list.
+        self.cursor.update(query_1, query_2)
+    
+    def delete(self):
+        
+        # Delete all on the list.
+        for i in self.cursor.find():
+            self.cursor.remove(i)
+
+if __name__ == '__main__':
+    mongo = MongoDB_Supplies()
+
+    for x in range(3):
+        reg = {'_id': x, 'x': x, 'list':['first', 'second', 'third','fourth', 'fifth']}
+        mongo.create(reg)
+        
+    print('Before update: ')
+    mongo.read()
+    
+    mongo.update({'x':0, 'list':'first'}, {'$set':{'list.$':'primeiro'}})
+    
+    # Add a new item on the list.
+    mongo.update({'x':1}, {"$addToSet":{'list':{'$each':['fifth', 'sixth', 'seventh']}}})
+    
+    # Remove one item on the list.
+    mongo.update({'x':2}, {'$pull':{'list':'fifth'}})
+    
+    print('After update: ')
+    mongo.read()
+    
+    mongo.delete()
+    
+    
