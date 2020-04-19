@@ -1,6 +1,7 @@
 # Welcome to Jessica's ePortfolio
 
 
+
 ## Professional self-assessment:
 
 Completing my coursework throughout the program and developing the ePortfolio has helped to showcase my strengths by able to apply everything I learned in the program. I was able to use some of my knowledge to design, develop, and test my code for my program. Completing my coursework throughout the program and developing the ePortfolio shape my professional goals and values to prepare me to enter or become more employable in the computer science field by helping me apply problem solving skills to get any general problem statement into precise algorithmic solutions. The program also helped me become proficient in my programming language with helping when looking for employment in the computer science field. I also learned to apply the computational and algorithmic problem-solving skills. When I took the course Object Orient Analysis/Design, I got to design using flowchart and UML. Creating the UML model help in show the relationship and programming ideas. When I took the course collaboration and team project, we were able to collaborate in a team environment and problem-solve things as a team. We got to review each other code and give each other feedback. These feedbacks helped me improve my coding skills and learn from my mistakes. I also provided feedback to my peers to help them improve any errors that were made and helpful tips. Using communication in any course throughout my program and in the real world is very important. Being able to communicate to stakeholders can help you receive information on their needs and can help impact the success of the project. Having communication with the stakeholders can help minimums the risk of your projects. Data structures are used to arrange the data in the computer memory or disk storage and algorithm searches and sort the data. In one of my programs that I developed; the user was able to make a choice on what they want to do in the ATM. Once the user picked a choice, the user was able to either view their balance, withdraw money, deposit money, and exit. For software engineering, I was able to develop few programs. I developed a Tic Tac Toe game, so the user was able to versus the computer. I also developed the ATM program that I mentioned above. To develop these programs, I first brainstorm any ideas and then designed it by making a flow chart. In my previous course, I used UML for requirements and making sure it will meet those requirements. I then developed a basic program and test it over and over until achieving my requirements. In the database, I developed some python, SQL, MongoDB, and MySQL programs that let the user create, read, update, and delete (CRUD) data from the database. For security, I got to learn a lot about security threats, malware, and hackers. I learned how to prevent these in different ways like antivirus programs, encryption, firewall, and so on.  
@@ -9,20 +10,20 @@ My artifacts fit together and inform the portfolio as a whole by showing what I 
 
 
 
-## Code Review 
+### Code Review 
 
 **Below is the link to my code review video:**
 
 
 
 
-## Software Engineering/ Design
+### Software Engineering/ Design
 
   The artifact that I chose is a previous existing code that I did in my previous course. I used Java to implement the fundamental operations of create, read, update, and delete (CRUD) using MongoDB driver to access my document collection. For this existing code, I had to create a document in MongoDB database called “city” into the collection “inspections.” Then I developed a function to be able to read that document and also to be able to update the document when needed. I also developed a function to delete any document that I no longer needed. 
   
   I selected this code because I want to test my skills and abilities by being able to transfer this existing code into a different language like python. When transferring my existing code into python, I work on the project piece by piece and tested it each time. I think I met some of the objectives that I planned to meet with this enhancement. I think being able to work on my CRUD functionally but using a different language was a good way to enhance my skills since this can help me improve my skills in different programming languages and not just one. Being able to improve my workflow of my program and debugging it can help with my outcome. 
   
- The challenges that I had when transferring the existing code to python is trying to make the program run smoothly. I had to do a lot of debugging and look at any syntax errors that I might have created when writing the code. I learned to do the code piece by piece and testing it instead of doing it all at once. This could of help me find any errors I made instead of going through each line to find out what I did wrong. 
+ The challenges that I had when transferring the existing code to python is trying to make the program run smoothly. I had to do a lot of debugging and look at any syntax errors that I might have created when writing the code. I learned to do the code piece by piece and testing it instead of doing it all at once. This could of help me find any errors I made instead of going through each line to find out what I did wrong. I kept everything the same since I got a positive feedback.  
  
 
 
@@ -95,11 +96,11 @@ for item in mydb.find():
 
 
 
-## Data Structure and Algorithms
+### Data Structure and Algorithms
 
   The artifact that I chose for data structures and algorithm is tic tac toe. I created this half of this game for fun two months ago and finished it this week. I created this game using the programming language python. In this game, the player versus the computer using a board that was created with strings. The player has a choice to choose if they want to be X or if they want to be O. The board is printed on the terminal and randomly choose which player goes first. Once the player is picked to go first, choose a number 1 through 9 to place their letter. The computer then randomly chose a spot that is free. A message will be displayed if the computer wins or in the user wins. 
 	
-  I picked this because it shows the data structures and algorithms that is used in this game. In the game tuple was used for X and O by using indexes. The string is also used throughout the code to help create the board and to display messages to the user. The letters that are used in the game also used String. Algorithms are used to get user input and the output. The input help get the letter the user use to play the game and also the number that they picked when placing the letter on the spot that is picked. This artifact was half done when I first created it. I finished working on it and tested it to make sure it was working correctly. I did some adjusting on some area that wasn’t working. I think objectives that I planned to meet with the enhancement did get met. I was able to use linear search in the game to move the letter on the board by using the number that the user picked. The binary search that I think was the letters that were in the index. I don’t think I have any updates to my outcome coverage plans at this moment. I learned that more about algorithms when creating this game. The challenges that I had was to know where to use the search algorithms. Also, make sure my loop was working correctly or written correctly was a bit of a challenge.
+  I picked this because it shows the data structures and algorithms that is used in this game. In the game tuple was used for X and O by using indexes. The string is also used throughout the code to help create the board and to display messages to the user. The letters that are used in the game also used String. Algorithms are used to get user input and the output. The input help get the letter the user use to play the game and also the number that they picked when placing the letter on the spot that is picked. This artifact was half done when I first created it. I finished working on it and tested it to make sure it was working correctly. I did some adjusting on some area that wasn’t working. I think objectives that I planned to meet with the enhancement did get met. I was able to use linear search in the game to move the letter on the board by using the number that the user picked. The binary search that I think was the letters that were in the index. I don’t think I have any updates to my outcome coverage plans at this moment. I learned that more about algorithms when creating this game. The challenges that I had was to know where to use the search algorithms. Also, make sure my loop was working correctly or written correctly was a bit of a challenge. I kept everything the same since I got a positive feedback. 
   
 
 
@@ -299,11 +300,11 @@ while True:
 
 
 
-## Database
+### Database
 
 For this artifact, I chose to make a python program. I created a simple program where the user can create, read, update, and delete items. The user can start by create a new register. The user then will be able to read the insert they made. The user can also be able to update the item that is on the list. The program will then display the user the update before and the update after it been made. The update can be removing item from the list or adding new one. The user can also be able to delete everything on the list.
 
-I selected this because this artifact collects data, and generally stores it. It let the user have control on the item they chose to add in their list. Being able to use the CRUD method to help me made this program showcase my skills and abilities. I was able to do a simple program that can store data into the database and get used when needed. I think objectives that I planned to meet with the enhancement did get met. I was able to store the data that the user typed in and let the user have control on the data usage. I don’t think I have any updates to my outcome coverage plans at this moment. The challenges were making sure that my program was working correctly and making sure I did it accurately. 
+I selected this because this artifact collects data, and generally stores it. It let the user have control on the item they chose to add in their list. Being able to use the CRUD method to help me made this program showcase my skills and abilities. I was able to do a simple program that can store data into the database and get used when needed. I think objectives that I planned to meet with the enhancement did get met. I was able to store the data that the user typed in and let the user have control on the data usage. I don’t think I have any updates to my outcome coverage plans at this moment. The challenges were making sure that my program was working correctly and making sure I did it accurately. I kept everything the same since I got a positive feedback. 
 
 
 
