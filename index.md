@@ -10,14 +10,14 @@ My artifacts fit together and inform the portfolio as a whole by showing what I 
 
 
 
-### Code Review 
+### Code Review: 
 
 **Below is the link to my code review video:**
 
 
 
 
-### Software Engineering/ Design
+### Software Engineering/ Design:
 
   The artifact that I chose is a previous existing code that I did in my previous course. I used Java to implement the fundamental operations of create, read, update, and delete (CRUD) using MongoDB driver to access my document collection. For this existing code, I had to create a document in MongoDB database called “city” into the collection “inspections.” Then I developed a function to be able to read that document and also to be able to update the document when needed. I also developed a function to delete any document that I no longer needed. 
   
@@ -96,7 +96,7 @@ for item in mydb.find():
 
 
 
-### Data Structure and Algorithms
+### Data Structure and Algorithms:
 
   The artifact that I chose for data structures and algorithm is tic tac toe. I created this half of this game for fun two months ago and finished it this week. I created this game using the programming language python. In this game, the player versus the computer using a board that was created with strings. The player has a choice to choose if they want to be X or if they want to be O. The board is printed on the terminal and randomly choose which player goes first. Once the player is picked to go first, choose a number 1 through 9 to place their letter. The computer then randomly chose a spot that is free. A message will be displayed if the computer wins or in the user wins. 
 	
@@ -300,7 +300,7 @@ while True:
 
 
 
-### Database
+### Database:
 
 For this artifact, I chose to make a python program. I created a simple program where the user can create, read, update, and delete items. The user can start by create a new register. The user then will be able to read the insert they made. The user can also be able to update the item that is on the list. The program will then display the user the update before and the update after it been made. The update can be removing item from the list or adding new one. The user can also be able to delete everything on the list.
 
