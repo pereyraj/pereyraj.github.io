@@ -10,11 +10,6 @@ My artifacts fit together and inform the portfolio as a whole by showing what I 
 
 
 
-## Code Review: 
-
-**Below is the link to my code review video:**
-
-
 
 
 ## Software Engineering/ Design:
